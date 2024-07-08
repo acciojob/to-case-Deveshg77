@@ -3,7 +3,7 @@ function toCase(text) {
 	String lowerCaseStr = str.toLowerCase();
     String upperCaseStr = str.toUpperCase();
     String result = lowerCaseStr + "-" + upperCaseStr;
-	
+	return result;
 }
 
 // DO not change the code below
