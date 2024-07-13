@@ -1,9 +1,8 @@
 function toCase(text) {
-  // write your code here
-	String lowerCaseStr = text.toLowerCase();
-    String upperCaseStr = text.toUpperCase();
-    String result = lowerCaseStr + "-" + upperCaseStr;
-	return result;
+    var lowerCaseStr = text.toLowerCase();
+    var upperCaseStr = text.toUpperCase();
+    var result = lowerCaseStr + "-" + upperCaseStr;
+    return result;
 }
 
 // DO not change the code below
