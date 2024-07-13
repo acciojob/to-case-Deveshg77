@@ -1,4 +1,4 @@
-function toCase(text) {
+function toCase(str) {
   // write your code here
 	String lowerCaseStr = str.toLowerCase();
     String upperCaseStr = str.toUpperCase();
